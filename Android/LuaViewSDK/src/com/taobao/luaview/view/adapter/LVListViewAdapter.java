@@ -31,7 +31,8 @@ import org.luaj.vm2.LuaValue;
  * @author song
  * @date 15/8/31
  */
-public class LVListViewAdapter extends BaseAdapter {
+public class
+LVListViewAdapter extends BaseAdapter {
     private static final String KEY_VIEW_TYPE = "_lv_key_view_type";
     private UDBaseListView mLuaUserData;
     private Globals mGlobals;

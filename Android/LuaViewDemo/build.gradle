@@ -1,5 +1,5 @@
 //运行配置
-apply plugin: 'android'
+apply plugin: 'com.android.application'
 
 description = """LuaView-Android-Demo: 用lua写Android、iOS"""
 
@@ -28,7 +28,7 @@ dependencies {
 */
 android {
     compileSdkVersion 23
-    buildToolsVersion '25.0.0'
+    buildToolsVersion '25.0.2'
     sourceSets {
         main {
             jniLibs.srcDirs = ['libs']
